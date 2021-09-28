@@ -1,0 +1,302 @@
+/* ===Подключаем шрифты==================================================================================================================================================== */
+
+/* &display=swap&subset=cyrillic-ext */
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* -----Normalize------------------------------------------------------------------------------------- */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+body {
+	background-color: #f5f5f5;
+	font-family: "roboto", sans-serif;
+	line-height: 1;
+	color: #4b4b4b;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+/* -----Main-CSS------------------------------------------------------------------------------------- */
+._container,
+._container-online-tech {
+	margin: 0px auto;
+	padding: 0 15px;
+}
+._container {
+	max-width: 1050px;
+}
+._container-online-tech {
+	max-width: 1070px;
+}
+._title {
+	font-size: 36px;
+	line-height: 117%;
+	color: #02133c;
+	font-weight: 900;
+}
+._subtitle {
+	font-size: 24px;
+	line-height: 120%;
+	font-weight: 700;
+	color: #000;
+}
+._subtitle span {
+	color: #001d5f;
+}
+/* ======= HEADER ============================================================================ */
+.header {
+	text-align: center;
+	padding: 35px 0;
+}
+.header__container {
+}
+.header__title {
+	text-shadow: 2px 3px 15px rgba(0, 29, 95, 0.4);
+	margin: 0px 0px 20px 0px;
+}
+.header__subtitle {
+}
+/* ======== PAGE =========================================================================== */
+.page {
+}
+.page__car-repair {
+	padding: 0px 0px 125px;
+}
+.page__cards {
+	padding: 25px 0px;
+}
+.page__tech-online {
+	padding: 25px 0px;
+}
+.page__quality {
+	padding: 25px 0px 50px;
+}
+/* =================================================================================== */
+.repair-car {
+}
+.repair-car__container {
+}
+.repair-car__body {
+	background-color: #fff;
+	padding: 100px 87px 20px;
+}
+.repair-car__overhead {
+	margin: 0px 0px 33px 0px;
+}
+.repair-car__overhead img {
+	vertical-align: middle;
+}
+.repair-car__overhead span {
+	font-size: 12px;
+	line-height: 200%;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+.repair-car__title-block {
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+.repair-car__title {
+}
+.repair-car__text {
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 54px 0px;
+}
+.repair-car__image {
+	width: 100%;
+}
+.repair-car__image img {
+	max-width: 100%;
+	display: block;
+	margin: 0px 0px -120px 0px;
+}
+/* =================================================================================== */
+.cards {
+}
+.cards__container {
+}
+.cards__items {
+	font-size: 0;
+	margin: -12px;
+}
+.cards__item {
+	width: 33.333%;
+	display: inline-block;
+	padding: 12px;
+}
+.cards__content {
+	text-align: center;
+	background-color: #fff;
+	padding: 50px 45px;
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.05);
+}
+.cards__image {
+	margin: 0px auto 33px;
+	height: 63px;
+	width: 63px;
+}
+.cards__image img {
+	max-width: 100%;
+}
+.cards__title {
+	font-size: 19px;
+	line-height: 137%;
+	font-weight: 900;
+	color: #02133c;
+	margin: 0px 0px 20px 0px;
+}
+.cards__text {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+}
+/* =================================================================================== */
+
+.online-tech {
+	font-family: "Poppins", sans-serif;
+	color: #000;
+}
+.online-tech__container {
+}
+.online-tech__name {
+	text-align: center;
+	margin: 0px 0px 35px 0px;
+}
+.online-tech__title {
+	font-size: 32px;
+	line-height: 150%;
+	font-weight: 600;
+	margin: 0px 0px 26px 0px;
+}
+.online-tech__subtitle {
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 19px 0px;
+}
+.online-tech__body {
+	padding: 40px 0 0;
+}
+.online-tech__block {
+	margin: 0px 0px 25px 0px;
+	
+}
+.block-online-tech {
+}
+.block-online-tech__title {
+	font-weight: 600;
+	line-height: 162.5%;
+	margin: 0px 0px 25px 0px;
+}
+.block-online-tech__paragraph {
+	font-weight: 300;
+	line-height: 162%;
+	margin: 0px 0px 25px 0px;
+}
+/* =================================================================================== */
+.quality {
+	font-family: "Poppins", sans-serif;
+	color: #000;
+}
+.quality__container {
+}
+.quality__item {
+	max-width: 555px;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 45px;
+}
+.quality__image {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 10px;
+}
+.quality__image img {
+	max-width: 100%;
+}
+.quality__title {
+	font-size: 44px;
+	line-height: 131.818%;
+	font-weight: 500;
+	margin: 0px 0px 25px;
+}
+.quality__text {
+	max-width: 436px;
+	font-size: 18px;
+	line-height: 144%;
+	font-weight: 300;
+}
+/* ====== FOOTER ============================================================================= */
+.footer {
+	font-size: 36px;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	padding: 35px 0;
+	border-top: 1px dashed #000;
+}
