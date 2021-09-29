@@ -253,9 +253,14 @@ body {
 	line-height: 162.5%;
 	margin: 0px 0px 25px 0px;
 }
-.block-online-tech__paragraph {
+.block-online-tech__list {
+}
+.block-online-tech__paragraph,
+.block-online-tech__item {
 	font-weight: 300;
 	line-height: 162%;
+}
+.block-online-tech__paragraph {
 	margin: 0px 0px 25px 0px;
 }
 /* =================================================================================== */
